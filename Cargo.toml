@@ -1,0 +1,9 @@
+[package]
+name = "async-await-test"
+version = "0.1.0"
+authors = ["Jack Wright <jack.wright@nike.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.1.15", features = ["async-await-preview"] }
+tokio-process = "0.2.3"
